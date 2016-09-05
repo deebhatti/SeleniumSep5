@@ -10,6 +10,8 @@ public class DifferentBrowser {
 //		WebDriver driver = new ChromeDriver();
 //		driver.get("https://facebook.com");
 		
+		//Write something here.
+		
 		System.setProperty("webdriver.ie.driver", "C:\\Webdrivers\\IEDriverServer_Win32_2.48.0\\IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver();
 		driver.get("https://facebook.com");
