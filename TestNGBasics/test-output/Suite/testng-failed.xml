@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Opera"/>
+  <test name="FirefoxTest">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="crossBrowserTesting.CBT"/>
+    </classes>
+  </test> <!-- FirefoxTest -->
+  <test name="ChromeTest">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="crossBrowserTesting.CBT"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="IETest">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="crossBrowserTesting.CBT"/>
+    </classes>
+  </test> <!-- IETest -->
+  <test name="OperaTest">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="crossBrowserTesting.CBT"/>
+    </classes>
+  </test> <!-- OperaTest -->
+</suite> <!-- Failed suite [Suite] -->
